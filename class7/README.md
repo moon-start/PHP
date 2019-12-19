@@ -2,9 +2,14 @@
 #### GIT指令
 + 語法:
   ```html
+    ####### 連結
     cd /usr/share/nginx/html
     git clone git@github.com:moon-start/PHP.git
     git clone https://github.com/moon-start/PHP.git
+    ####### 拉取
+    cd PHP
+    git pull origin master
+
   ```
 #### 函數
 + 函數的作用 : 將功能相同的程式碼提出，以減少撰寫相同功能的程式碼
