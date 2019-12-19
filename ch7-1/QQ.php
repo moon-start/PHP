@@ -12,7 +12,6 @@ class QQ {
   }
 }
 
-log = new QQ
 
 $app = new QQ;
 // 使用 new class 建立匿名類別
