@@ -31,10 +31,10 @@
     //PHP_EOL 空隔或是換行
     $person->name = 'PHP';
 
-    unset($person->name);
+    // unset($person->name);
     echo $person->name.PHP_EOL;  ## PHP
     echo $person->name;
-    
+
 
     // sex 這個屬性是無法取得的
     echo $person->sex.PHP_EOL;   ## sex
