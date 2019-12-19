@@ -28,9 +28,10 @@
     //Person 類別沒有 name 這個屬性名稱
     //PHP_EOL 空隔或是換行
     $person->name = 'PHP';
-    echo $person->name.PHP_EOL;
+    echo $person->name.PHP_EOL;  ## PHP
+
     // sex 這個屬性是無法取得的
-    # echo $person->sex.PHP_EOL;
+    echo $person->sex.PHP_EOL;
 
     #### 有輸出[1]
     # echo isset($person->address);
