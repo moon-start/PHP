@@ -1,4 +1,5 @@
 <?php
+### 建立一個類別--來替代--抽象類別(呼叫兒子類別)
 abstract class Animal {
   public function sleep(){
       echo '睡';
