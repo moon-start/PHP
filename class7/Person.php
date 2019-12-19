@@ -4,11 +4,11 @@
       public function __set($name, $value){
         
         //限制不可動態產生屬性
-        if (isset($this->$name)) {
-            return $this->$name = $value;
-        } else {
-            return null;
-        }
+        // if (isset($this->$name)) {
+        //     return $this->$name = $value;
+        // } else {
+        //     return null;
+        // }
       }
       // 取得屬性名稱的值
       public function __get($name){
@@ -31,7 +31,7 @@
     echo $person->name.PHP_EOL;  ## PHP
 
     // sex 這個屬性是無法取得的
-    echo $person->sex.PHP_EOL;
+    echo $person->sex.PHP_EOL;   ## sex
 
     #### 有輸出[1]
     # echo isset($person->address);
