@@ -7,5 +7,7 @@ function __autoload($className){
 }
 
 ## 註冊
+## 註冊
+## 註冊
 spl_autoload_register('__autoload');
 ?>
