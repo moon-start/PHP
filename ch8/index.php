@@ -3,6 +3,6 @@
 include_once __DIR__ . "/import.php";
 
 $member = new AA();
-$member->getAA();
+$member->getAA(); 
 
 ?>
