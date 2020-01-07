@@ -20,6 +20,11 @@ class HelloD{
   ##########  
   use HelloC;
 }
+
+
 $world = new HelloD();
+
+echo __DIR__ ."<BR>";
+#### 輸出 : Hello World
 echo $world->sayHello() . " " . $world->sayWorld(); //Hello World
 ?>
