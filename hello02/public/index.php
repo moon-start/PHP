@@ -14,4 +14,13 @@ $KK= $mycar->setName("Ford...66");
 
 echo $KK;
 echo $mycar->getName();
+
+use Cars\ABC\CarC;
+$mycar = new CarC();
+$KK= $mycar->setName("Ford...CC");
+echo $KK;
+echo $mycar->getName();
+
+
+
 ?>
