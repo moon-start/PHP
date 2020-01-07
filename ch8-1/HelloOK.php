@@ -14,6 +14,7 @@ trait Hello{
   function sayHelloWorld() {
     echo $this->sayHello() . " " . $this->sayWorld();
   }
+  ######## ### Hello Base World
   function sayBaseWorld() {
     echo $this->sayHello() . " " . parent::sayWorld();
   }
@@ -35,7 +36,8 @@ $h =  new HelloOK();
 ### Hello World
 $h->sayHelloWorld(); // Hello World
 
-### 呼叫父親
+
+### Hello Base World  ### 自己方法 呼叫 父親的方法
 $h->sayBaseWorld();
 
 ?>
