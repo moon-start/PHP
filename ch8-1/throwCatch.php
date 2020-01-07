@@ -1,28 +1,30 @@
 <?php
-class DivideByZeroException extends Exception {};
-class DivideByNegativeException extends Exception {};
+class A extends Exception {};
+class B extends Exception {};
 
 function process($denominator) {
   try    {
     if ($denominator == 0) {
-      throw new DivideByZeroException();
+      throw new A();
     
     }else if ($denominator < 0) {
-      throw new DivideByNegativeException();
+      throw new B();
     
     }else {
       echo 25 / $denominator;
     }
 
-  }catch (DivideByZeroException $ex)    {
+  }catch (A $ex)    {
     echo "DIVIDE BY ZERO EXCEPTION!";
 
-  }catch (DivideByNegativeException $ex)    {
+  }catch (B $ex)    {
     echo "DIVIDE BY NEGATIVE NUMBER EXCEPTION!";
   
   }catch (Exception $x) {
     echo "UNKNOWN EXCEPTION!";
   }
 }
+
+########## DIVIDE BY ZERO EXCEPTION!
 process(0);
 ?>

@@ -1,7 +1,7 @@
 <?php
 
 ## 繼承 Exception 
-class EmailFormatException extends Exception {
+class EmailException extends Exception {
   function printMessage(){
    
     ###################################
@@ -9,7 +9,7 @@ class EmailFormatException extends Exception {
     ####
     #### Error Message: E-mail需要包含'@'
     #### Error Code: 0
-    
+
     echo "例外訊息:" . $this->getMessage() . "<br />";
     ####
     echo "Error Message: ".$this->getMessage()."<br />";
