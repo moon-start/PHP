@@ -10,7 +10,7 @@ trait Music{
   }
 }
 
-class Play{
+class PlayOK{
 
 
   ## Playing musicPlaying music
@@ -26,7 +26,7 @@ class Play{
 ### Playing music
 ### Playing music
 ### Playing a game
-$player = new Play();
+$player = new PlayOK();
 
 $player->play();
 
