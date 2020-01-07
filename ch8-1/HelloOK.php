@@ -8,7 +8,7 @@ trait Hello{
   function sayWorld() {
     return "Trait World";
   }
-  
+
   function sayHelloWorld() {
     echo $this->sayHello() . " " . $this->sayWorld();
   }
@@ -28,6 +28,6 @@ class HelloOK extends Base{
     return "World";
   }
 }
-$h =  new HelloWorld();
+$h =  new HelloOK();
 $h->sayHelloWorld(); // Hello World
 ?>
