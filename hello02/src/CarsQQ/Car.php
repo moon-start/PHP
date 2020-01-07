@@ -1,5 +1,5 @@
 <?php
-namespace Cars;
+namespace CarsQQ;
 
 class Car{
 

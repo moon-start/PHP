@@ -3,7 +3,7 @@ require_once '../vendor/autoload.php';
 
 use \Cars\Car;
 $mycar = new Car();
-$KK= $mycar->setName("Ford...");
+$KK= $mycar->setName("Ford...KK");
 
 echo $KK;
 echo $mycar->getName();
