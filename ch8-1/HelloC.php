@@ -15,6 +15,9 @@ class HelloC {
     echo '!';
   }
 }
+
+
+## 輸出 : HelloA HelloB!
 $o = new HelloC();
 $o->sayHello();
 $o->sayWorld();
