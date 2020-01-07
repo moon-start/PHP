@@ -6,9 +6,9 @@ class EmailFormatException extends Exception {
     echo "例外訊息:" . $this->getMessage() . "<br />";
     ###
     ## Error Message: num can not be 0
-    echo "Error Message: ".$e->getMessage()."<br />";
+    echo "Error Message: ".$this->getMessage()."<br />";
     ## Error Code: 100
-    echo "Error Code: ".$e->getCode()."<br />";
+    echo "Error Code: ".$this->getCode()."<br />";
   }
 }
 function checkEmail($email){
