@@ -1,14 +1,14 @@
 <?php
-namespace CarsQQ;
+namespace Cars;
 
-class CarA{
+class Car{
 
   ## ??
   protected $name;
 
   public function setName($name){
     $this->name = $name;
-    return "我是第二個類別...";
+    return "completed...";
   }
 
   public function getName(){
