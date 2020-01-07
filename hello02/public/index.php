@@ -1,21 +1,21 @@
 <?php
 require_once '../vendor/autoload.php';
 
-use \CarsQQ\Car;
+use \CarsKK\Car;
 $mycar = new Car();
 $KK= $mycar->setName("Ford...");
 
 echo $KK;
 echo $mycar->getName();
 
-use \CarsQQ\CarA;
+use \CarsKK\CarA;
 $mycar = new CarA();
 $KK= $mycar->setName("Ford...66");
 
 echo $KK;
 echo $mycar->getName();
 
-use CarsQQ\ABC\CarC;
+use CarsKK\ABC\CarC;
 $mycar = new CarC();
 $KK= $mycar->setName("Ford...CC");
 echo $KK;

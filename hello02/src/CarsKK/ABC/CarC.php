@@ -1,7 +1,7 @@
 <?php
 
-namespace CarsKK\ABC;
-use CarsKK\CarA;
+namespace CarsQQ\ABC;
+use CarsQQ\CarA;
 
 
 class CarC extends CarA{
