@@ -1,5 +1,5 @@
 <?php
-require_once 'hello02/vendor/autoload.php';
+require_once 'hello022/vendor/autoload.php';
 
 use \CarsAA\Car;
 $mycar = new Car();
