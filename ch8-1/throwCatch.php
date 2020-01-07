@@ -14,6 +14,7 @@ function process($denominator) {
       echo 25 / $denominator;
     }
 
+   ##### 多層次的例外處理
   }catch (A $ex)    {
     echo "DIVIDE BY ZERO EXCEPTION!";
 
@@ -25,6 +26,7 @@ function process($denominator) {
   }
 }
 
+########## DIVIDE BY ZERO EXCEPTION!
 ########## DIVIDE BY ZERO EXCEPTION!
 process(0);
 ?>
