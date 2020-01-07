@@ -1,10 +1,18 @@
 {
-    "autoload": {
-      "psr-4": {
-        "Cars\\": "src/Cars",
-        "CarsQQ\\": "src/CarsQQ",
-        "CarsKK\\": "src/CarsKK",
-        "CarsAA\\": "src/CarsAA"
-      }
+  "autoload": {
+    "psr-4": {
+      "Cars\\": "src/Cars",
+      "CarsQQ\\": "src/CarsQQ",
+      "CarsKK\\": "src/CarsKK",
+      "CarsAA\\": "src/CarsAA"
     }
+  },
+  "autoload123456": {
+    "psr-4": {
+      "Cars\\": "src/Cars",
+      "CarsQQ\\": "src/CarsQQ",
+      "CarsKK\\": "src/CarsKK",
+      "CarsAA\\": "src/CarsAA"
+    }
+  }  
 }
