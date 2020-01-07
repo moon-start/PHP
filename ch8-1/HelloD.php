@@ -24,6 +24,7 @@ class HelloD{
 
 $world = new HelloD();
 
+#### 輸出 : /usr/share/nginx/html/PHP/ch8-1
 echo __DIR__ ."<BR>";
 #### 輸出 : Hello World
 echo $world->sayHello() . " " . $world->sayWorld(); //Hello World
