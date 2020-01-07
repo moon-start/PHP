@@ -13,7 +13,7 @@ trait HelloB {
 ##### A和B 打包在一起
 trait HelloC{
   #############
-  use Hello, World;
+  use HelloA, HelloB;
 }
 
 class HelloD{
