@@ -16,6 +16,8 @@ class ARR {
   }
 }
 
+
+### Custom Message
 $messenger = new ARR;
 $messenger->alert(); //Custom Message
 ?>
