@@ -23,12 +23,12 @@ class PlayOK{
   }
 }
 
-### Playing music
-### Playing music
-### Playing a game
+
+###### Playing musicPlaying a game
 $player = new PlayOK();
 
+## Playing music
 $player->play();
-
+## Playing a game
 $player->gamePlay();
 ?>
