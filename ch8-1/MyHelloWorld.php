@@ -6,7 +6,10 @@ class Base {
 }
 trait SayWorld {
   public function sayHello() {
-    parent::sayHello();
+    ## 呼叫 父親的這個方法
+    ## parent::sayHello();
+
+    ## 改寫 成自己的子方法
     echo 'World!';
   }
 }
