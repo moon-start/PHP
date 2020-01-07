@@ -19,10 +19,12 @@ class Play{
   }
 }
 
-
+### Playing music
+### Playing music
+### Playing a game
 $player = new Play();
 
 $player->play();
 
-$player->gamePlay();
+##$player->gamePlay();
 ?>
