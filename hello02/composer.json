@@ -3,7 +3,8 @@
       "psr-4": {
         "Cars\\": "src/Cars",
         "CarsQQ\\": "src/CarsQQ",
-        "CarsKK\\": "src/CarsKK"
+        "CarsKK\\": "src/CarsKK",
+        "CarsAA\\": "src/CarsAA"
       }
     }
 }
