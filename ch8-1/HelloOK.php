@@ -9,6 +9,8 @@ trait Hello{
     return "Trait World";
   }
 
+
+  ######## ### Hello World
   function sayHelloWorld() {
     echo $this->sayHello() . " " . $this->sayWorld();
   }
@@ -29,5 +31,11 @@ class HelloOK extends Base{
   }
 }
 $h =  new HelloOK();
+
+### Hello World
 $h->sayHelloWorld(); // Hello World
+
+### 呼叫父親
+$h->sayBaseWorld();
+
 ?>
