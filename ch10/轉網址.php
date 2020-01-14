@@ -1,5 +1,6 @@
 <?php
 ## 1.錯誤..但繼續?
+header("Location: session.php");
 header("Location: http://google.com");
 ## 2.
 header("Location: sessionXXX999.php");
