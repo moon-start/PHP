@@ -1,9 +1,8 @@
 <?php
-## 1.錯誤..但繼續?
-header("Location: session.php");
-header("Location: http://google.com");
-## 2.
-header("Location: sessionXXX999.php");
+// ## 1.錯誤..但繼續?
+// header("Location: http://google.com");
+// ## 2.Location會覆蓋上面
+// header("Location: sessionXXX999.php");
 ## 3.更新
 header("Refresh: 5"); //每五秒更新一次網頁
 ## 5.
